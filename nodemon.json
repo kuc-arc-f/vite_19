@@ -1,0 +1,6 @@
+{
+  "watch": ["server", "server.ts"],
+  "ext": "ts,tsx,js,jsx", 
+  "ignore": ["server/**/*.txt"],
+  "exec": "node build.js && node dist/server.js"
+}
